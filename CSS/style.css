@@ -35,10 +35,16 @@ ul {
 }
 
 .blue_bar_text {
-  font-size: 12px;
-  font-family: Sans;
+  font-size: 14px;
   color: #1f3951;
   font-family: "DM Sans";
+}
+
+
+
+.blue_bar_text a {
+  font-family: "DM Sans";
+  font-size: 13px;
 }
 
 #blue_bar_img {
@@ -95,4 +101,74 @@ ul {
 
 #sale {
   color: #ed4d4d;
+}
+
+#girl_sleep {
+  width: 100%;
+}
+
+#button_div {
+  display: flex;
+  justify-content: left;
+}
+
+.button {
+  border-color: #406c93;
+  border-width: 2px;
+  text-align: center;
+  font-size: 13px;
+  color: #406c93;
+  margin-right: 20px;
+  background-color: transparent;
+  height: 50px;
+  border-radius: 5px;
+  font-family: "DM Sans";
+  padding: 15px;
+}
+
+.button2 {
+  border-color: white;
+  border-width: 2px;
+  text-align: center;
+  font-size: 13px;
+  color: #1f3951;
+  margin-right: 20px;
+  background-color: transparent;
+  height: 50px;
+  border-radius: 5px;
+  font-family: "DM Sans";
+  padding: 15px;
+}
+
+.button:hover {
+  background-color: #406c93;
+  color: white;
+  cursor: pointer;
+  transition: 1s;
+}
+
+#main_title {
+  font-size: 52px;
+  font-family: "DM Sans";
+  color: #1f3951;
+}
+
+#italic_part {
+  color: #406c93;
+  align-self: left;
+  font-size: 24px;
+  font-family: "Bodoni Moda, SemiBold Italic";
+}
+
+#text_part {
+  color: #122230;
+  font-size: 16px;
+  font-family: "DM Sans";
+  width: 72%;
+}
+
+#main_div {
+  width: 43%;
+  margin-top: -600px;
+  margin-left: 50px;
 }
