@@ -198,7 +198,6 @@ ul {
   padding-right: 20px;
 }
 
-
 .hero {
   position: relative;
   top: 210px;
@@ -238,4 +237,14 @@ ul {
 
 .pprices {
   margin: 30px;
+}
+
+#bed {
+  margin-top: 200px;
+}
+
+#bed img {
+  width: 1440px;
+  height: 350px;
+  width: 100%;
 }
