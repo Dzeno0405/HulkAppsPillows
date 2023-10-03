@@ -40,8 +40,6 @@ ul {
   font-family: "DM Sans";
 }
 
-
-
 .blue_bar_text a {
   font-family: "DM Sans";
   font-size: 13px;
@@ -82,7 +80,7 @@ ul {
 
 .navbar-links a {
   color: #1f3951;
-  font-family: 'DM Sans';
+  font-family: "DM Sans";
   text-decoration: none;
   font-weight: bold;
   font-size: 16px;
@@ -171,4 +169,31 @@ ul {
   width: 43%;
   margin-top: -600px;
   margin-left: 50px;
+}
+
+.navbar2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  top: 210px;
+  background-color: #f9f7f6;
+  padding: 25px;
+}
+
+.navbar2-items {
+  display: flex;
+  align-items: center;
+}
+
+.navbar2-items p {
+  display: flex;
+  font-family: "DM Sans";
+  opacity: 100%;
+  font-weight: 500;
+}
+
+.navbar2-items img {
+  display: flex;
+  padding-right: 20px;
 }
