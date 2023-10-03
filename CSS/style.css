@@ -217,6 +217,8 @@ ul {
   align-items: center;
   font-family: "DM Sans";
   font-size: 36px;
+  color: #1F3951;
+  font-weight: 700;
 }
 
 .sleeper-classes {
@@ -228,7 +230,22 @@ ul {
   padding: 40px;
   padding-left: 180px;
   padding-right: 180px;
+  font-family: 'DM Sans';
 }
+
+.bolded-sleeper{
+  font-size: 17px;
+  font-weight: 700;
+  color: #1F3951;
+  text-shadow: 0 5px 10px rgba(64, 108, 147, 0.5);
+}
+
+.sleepers{
+  font-size: 17px;
+  color: #1F3951;
+  font-weight: 300;
+}
+
 
 .pillows-images {
   display: flex;
@@ -237,6 +254,46 @@ ul {
 
 .pprices {
   margin: 30px;
+}
+.pprices p {
+  font-family: "DM Sans";
+}
+
+.pillow-name {
+  font-weight: 700;
+  font-size: 17px;
+  color: #122230;
+}
+
+.pillow-desc {
+  font-size: 13px;
+  font-weight: 100;
+  color: #646f78;
+}
+
+.prices {
+  font-size: 16px;
+  color: #1f3951;
+  font-weight: 600;
+}
+
+.red-price {
+  font-size: 16px;
+  font-weight: 700;
+  color: #ed4d4d;
+}
+
+.crossed-price {
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: line-through;
+}
+
+.discount-price{
+  font-size: 13px;
+  color: #ED4D4D;
+  font-weight: 700;
+  text-shadow: 0 5px 10px rgba(237, 77, 77, 0.5);
 }
 
 #bed {
