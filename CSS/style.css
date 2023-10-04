@@ -1,9 +1,9 @@
-body{
+body {
   width: 1440px;
   height: 5457px;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -53,14 +53,14 @@ ul {
   font-family: "DM Sans";
   font-size: 13px;
   font-weight: 400;
-  color: #1F3951;
+  color: #1f3951;
 }
 
 .blue_bar_rtext {
   font-family: "DM Sans";
   font-size: 14px;
   font-weight: 500;
-  color: #1F3951;
+  color: #1f3951;
   text-decoration: none;
 }
 
@@ -236,7 +236,7 @@ ul {
   align-items: center;
   font-family: "DM Sans";
   font-size: 36px;
-  color: #1F3951;
+  color: #1f3951;
   font-weight: 700;
 }
 
@@ -249,22 +249,21 @@ ul {
   padding: 40px;
   padding-left: 180px;
   padding-right: 180px;
-  font-family: 'DM Sans';
+  font-family: "DM Sans";
 }
 
-.bolded-sleeper{
+.bolded-sleeper {
   font-size: 17px;
   font-weight: 700;
-  color: #1F3951;
+  color: #1f3951;
   text-shadow: 0 5px 10px rgba(64, 108, 147, 0.5);
 }
 
-.sleepers{
+.sleepers {
   font-size: 17px;
-  color: #1F3951;
+  color: #1f3951;
   font-weight: 300;
 }
-
 
 .pillows-images {
   display: flex;
@@ -308,9 +307,9 @@ ul {
   text-decoration: line-through;
 }
 
-.discount-price{
+.discount-price {
   font-size: 13px;
-  color: #ED4D4D;
+  color: #ed4d4d;
   font-weight: 700;
   text-shadow: 0 5px 10px rgba(237, 77, 77, 0.5);
 }
@@ -365,31 +364,102 @@ ul {
   height: 530px;
 }
 
-.whitepillow-desc{
+.whitepillow-desc {
   bottom: 80%;
   margin-top: -515px;
   margin-left: 20px;
 }
 
-.shop-nowlink{
+.shop-nowlink {
   bottom: 80%;
   margin-top: -15px;
   margin-left: 20px;
 }
 
 #offers .whitepillow-desc {
-  font-family: 'DM Sans';
+  font-family: "DM Sans";
   font-weight: 700;
-  color: #1F3951;
+  color: #1f3951;
   font-size: 28px;
 }
 
 #offers .shop-nowlink {
-  font-family: 'DM Sans';
+  font-family: "DM Sans";
   font-weight: 700;
-  color: #1F3951;
+  color: #1f3951;
   font-size: 13px;
   border: #1f3951;
   text-decoration: underline;
+}
 
+.reviews {
+  margin-top: 460px;
+  background-color: #eef6fa;
+  padding-top: 45px;
+}
+
+.container {
+  text-align: center;
+}
+
+.happy-sleepers {
+  align-items: center;
+}
+
+.happy-main {
+  font-family: "DM Sans";
+  font-weight: 700;
+  color: #1f3951;
+  font-size: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.happy-description {
+  font-family: "DM Sans";
+  color: #122230;
+}
+
+.reviews-all {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+
+.review1 {
+  background-color: white;
+  border: white solid;
+  border-radius: 10px;
+  padding: 50px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.review1 h1 {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 22px;
+  color: #1f3951;
+}
+
+.review1 p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #122230;
+}
+
+.review1 h3 {
+  font-family: "Bodoni Moda";
+  font-weight: 600;
+  font-size: 20px;
+  color: #406c93;
+}
+
+.button3 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 45px;
 }
