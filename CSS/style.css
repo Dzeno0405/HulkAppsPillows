@@ -404,6 +404,7 @@ ul {
 
 .happy-sleepers {
   align-items: center;
+  width: 200%;
 }
 
 .happy-main {
@@ -462,4 +463,120 @@ ul {
   display: flex;
   justify-content: center;
   padding-bottom: 45px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column: 2;
+
+}
+
+.left-picture{
+  display: flex;
+  
+}
+
+.left-picture img {
+  padding-top: 100px;
+  grid-column: 2;
+  display: flex;
+  padding-left: 100px;
+}
+
+.hotelInfo {
+  flex: 1;
+}
+
+.hotelLogo {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-right: 95px;
+}
+
+.innResorts {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  padding-top: 100px;
+  margin: 0;
+}
+
+.innResorts p {
+  display: flex;
+  width: 80%;
+  font-family: 'Bodoni Moda';
+  font-size: 18px;
+  font-weight: 600;
+  color: #406C93;
+  font-style: italic;
+  margin-bottom: 10px;
+  margin-left: -45px;
+}
+.innResorts h1 {
+  display: flex;
+  flex-direction: column;
+  font-family: 'DM Sans';
+  font-weight: 700;
+  font-size: 36px;
+  color: #1F3951;
+  margin-top: 10px;
+  margin-left: -100px;
+}
+
+
+.asidePictures{
+  position: relative;
+  bottom: 400px;
+  left: 680px;
+}
+
+.picturesAgain{
+  display: flex;
+  gap: 20px;
+}
+
+.pillowDesc1{
+  font-family: 'DM Sans';
+  font-weight: 700;
+  font-size: 17px;
+  color: #122230;
+  margin-bottom: 0px;
+}
+
+.pillowDesc2{
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 13px;
+  color: #646F78;
+  margin-top: 5px;
+}
+
+.pillowPriceRed{
+  font-family: 'DM Sans';
+  font-weight: 500;
+  font-size: 16px;
+  color: #ED4D4D;
+  margin-top: -5px;
+}
+
+.pillowPricesReg{
+  font-family: 'DM Sans';
+  font-weight: 500;
+  font-size: 16px;
+  color: #1F3951;
+  margin-top: -5px;
+}
+
+.pillowPricesCrossed{
+  font-family: 'DM Sans';
+  font-weight: 500;
+  font-size: 16px;
+  color: #1F3951;
+  text-decoration: line-through;
+}
+
+.button4{
+  width: 50%;
+  padding-left: 150px;
 }
