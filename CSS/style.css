@@ -580,3 +580,98 @@ ul {
   width: 50%;
   padding-left: 150px;
 }
+
+.button4 {
+  width: 50%;
+  padding-left: 150px;
+  position: relative;
+  bottom: 25px;
+  right: 50px;
+}
+
+.locations {
+  text-align: center;
+  position: relative;
+  bottom: 380px;
+}
+
+.locations-title {
+  margin-bottom: 32px;
+  font-family: "DM Sans";
+  font-size: 16px;
+  color: #406c93;
+  font-weight: 700;
+}
+
+.location-names {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-left: 50px;
+}
+
+.location1 {
+  width: 188px;
+  height: 100px;
+  background-color: #ffffff;
+  border: 2px solid #ffff;
+  box-shadow: 0px 14px 40px #0000000F;
+  border-radius: 5px;
+}
+
+.location1 p{
+  padding-top: 20px;
+  font-family: "DM Sans";
+  font-weight: 400;
+  color: #1f3951;
+  font-size: 20px;
+}
+
+.see-all {
+  margin-top: 45px;
+}
+
+.see-all a{
+  font-family: "DM Sans";
+  font-size: 13px;
+  color: #1F3951;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+
+.help{
+  text-align: center;
+  background-color: #F8F6F6;
+  position: relative;
+  bottom: 300px;
+  left: 20px;
+  padding-top: 20px;
+}
+
+.help-title{
+  font-family: 'DM Sans';
+  font-weight: 700;
+  font-size: 30px;
+  color: #1F3951;
+}
+
+.all-help{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 40px;
+}
+
+.all-help h4{
+  font-family: 'DM Sans';
+  font-weight: 700;
+  font-size: 17px;
+  color: #1F3951;
+}
+
+.all-help p{
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 16px;
+  color: #1F3951;
+}
