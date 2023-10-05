@@ -809,3 +809,42 @@ input::placeholder{
   background-color: #406C93;
   padding: 15px;
 }
+
+.friends{
+  align-items: center;
+  position: relative;
+  left: 900px;
+  bottom: 300px;
+}
+
+.friends p{
+  font-family: 'DM Sans';
+  font-weight: 700;
+  font-size: 24px;
+  color: #1F3951;
+}
+
+.friends i{
+  border: 2px solid #FFFFFF;
+  border-radius: 60px; 
+  border-color: white;
+  background-color: white;
+  padding: 10px;
+  color: #406C93 ;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 500px;
+
+}
+
+footer p{
+  font-family: 'DM Sans';
+  font-weight: 500;
+  font-size: 13px;
+  color: #646F78;
+  margin-left: 30px;
+}
