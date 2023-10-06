@@ -137,7 +137,7 @@ a {
 }
 
 body {
-  width: auto;
+  width: 1440px;
   height: 5457px;
 }
 
@@ -544,10 +544,13 @@ body {
   padding-left: 100px;
   position: relative;
   top: 30px;
+  left: 100px;
 }
 
 .hotelInfo {
   flex: 1;
+  position: relative;
+  right: -150px;
 }
 
 .hotelLogo {
@@ -567,6 +570,8 @@ body {
 
 .hotelLogo img {
   animation: spin 10s linear infinite; 
+  position: relative;
+  right: -80px;
 }
 
 
@@ -587,9 +592,9 @@ body {
   color: #406c93;
   font-style: italic;
   margin-bottom: 10px;
-  margin-left: -45px;
+  margin-left: -160px;
 }
-.innResorts h1 {
+.hotelInfo h1 {
   display: flex;
   flex-direction: column;
   font-family: "DM Sans";
@@ -597,13 +602,13 @@ body {
   font-size: 36px;
   color: #1f3951;
   margin-top: 10px;
-  margin-left: -100px;
+  margin-left: -330px;
 }
 
 .asidePictures {
   position: relative;
   bottom: 400px;
-  left: 680px;
+  left: 710px;
 }
 
 .picturesAgain {
@@ -845,7 +850,7 @@ body {
 
 .pillow-talk{
   position: relative;
-  left: 900px;
+  left: 1000px;
   bottom: 320px;
 }
 
@@ -887,7 +892,7 @@ input::placeholder{
 .friends{
   align-items: center;
   position: relative;
-  left: 900px;
+  left: 1000px;
   bottom: 300px;
 }
 
