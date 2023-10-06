@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>Pillows.com</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/main.css" />
     <script
       src="https://kit.fontawesome.com/7f9d7a31ac.js"
       crossorigin="anonymous"
@@ -17,6 +17,8 @@
       href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400;1,6..96,500;1,6..96,600;1,6..96,700&display=swap"
       rel="stylesheet"
     />
+    <script src="./js/slider.js"></script>
+    <script src="./js/blue_bar.js"></script>
   </head>
 
   <body>
@@ -37,6 +39,7 @@
           <a class="blue_bar_rtext" href=""> Contact Us</a>
         </div>
       </div>
+
       <div class="navbar">
         <a href="#" class="navbar-logo"
           ><img src="img/pillow logo.png" alt="logo"
@@ -56,31 +59,37 @@
         </div>
       </div>
     </header>
-
-    <div>
-      <img
-        id="girl_sleep"
-        src="img/AdobeStock_277241798.png"
-        alt="girl sleeping"
-      />
-    </div>
-    <div id="main_div">
-      <h1 id="main_title">Shop Hotel Pillows</h1>
-      <h2 id="italic_part">
-        <i>Experience hotel relaxation in the comfort of your home.</i>
-      </h2>
-      <p id="text_part">
-        Bring the same bedding featured in your favorite hotel or resort to your
-        home. Find your favorite pillow from the most popular hotel chains:
-        <strong
-          >Marriott ®, Hampton Inn ®, Hilton ®, Four Seasons ®, Ritz-Carlton
-          ®,</strong
-        >
-        and so much more!
-      </p>
-      <div id="button_div">
-        <button class="button"><strong>SHOP HOTEL PILLOWS</strong></button>
-        <button class="button"><strong>FIND YOUR DREAM PILLOW</strong></button>
+    <div id="main_slider">
+      <div>
+        <img
+          id="girl_sleep"
+          src="img/AdobeStock_277241798.png"
+          alt="girl sleeping"
+        />
+      </div>
+      <div id="main_div">
+        <h1 id="main_title">Shop Hotel Pillows</h1>
+        <h2 id="italic_part">
+          <i>Experience hotel relaxation in the comfort of your home.</i>
+        </h2>
+        <p id="text_part">
+          Bring the same bedding featured in your favorite hotel or resort to your
+          home. Find your favorite pillow from the most popular hotel chains:
+          <strong
+            >Marriott ®, Hampton Inn ®, Hilton ®, Four Seasons ®, Ritz-Carlton
+            ®,</strong
+          >
+          and so much more!
+        </p>
+        <div id="button_div">
+          <button class="button"><strong>SHOP HOTEL PILLOWS</strong></button>
+          <button class="button"><strong>FIND YOUR DREAM PILLOW</strong></button>
+        </div>
+      </div>
+      <div id="slider_dots">
+        <span class="slider-dot active" data-slide="0"></span>
+        <span class="slider-dot" data-slide="1"></span>
+        <span class="slider-dot" data-slide="2"></span>
       </div>
     </div>
 
@@ -193,7 +202,7 @@
           <p class="happy-description">With over <b>20,000 five-star reviews</b>, dont take our word for it. Take theirs.</p>
         </div>
       </div>
-  
+
       <div class="reviews-all">
         <div class="review1">
           <img src="img/star.png" alt="star">
@@ -205,7 +214,7 @@
           <p>Been sleeping on this little cloud for a month now <br> and I LOVE it! It&#39s so so soft and makes me feel like a <br> well rested baby. Thank you Pillows.com!</p>
           <h3><i>- Jessica R.</i></h3>
         </div>
-  
+
         <div class="review1">
           <img src="img/star.png" alt="star">
           <img src="img/star.png" alt="star">
@@ -216,7 +225,7 @@
           <p>I was a skeptic until I laid my lovely head on this <br> pillow I was really shocked that the pillow kept its <br> fluff this long. I love it and will be buying more.</p>
           <h3><i>- Alex S.</i></h3>
         </div>
-  
+
         <div class="review1">
           <img src="img/star.png" alt="star">
           <img src="img/star.png" alt="star">
@@ -227,174 +236,183 @@
           <p>These are the SOFTEST and coziest pillows ever! I <br> have to get into bed fast before my dogs take them!</p>
           <h3><i>- Stephanie L.</i></h3>
         </div>
-  
       </div>
-        <div class="button3">
-          <button class="button">
-            <strong>READ ALL REVIEWS</strong>
-          </button>
-        </div>
-      </article>
 
-      <article class="container">
+      <div class="slider-dots2">
+        <span class="slider-dot2 active" data-slide="0"></span>
+        <span class="slider-dot2" data-slide="1"></span>
+        <span class="slider-dot2" data-slide="2"></span>
+        <span class="slider-dot2" data-slide="3"></span>
+      </div>
 
-        <div class="left-picture">
-          <img src="img/girlbed.png" alt="">
-        </div>
-  
-        <div class="innResorts">
-          <div class="hotelInfo">
-              <p>Featured Hotel Bedding</p>
-              <h1>Holiday Inn Hotel & Resorts®</h1>
-          </div>
-          <div class="hotelLogo">
-            <img src="img/hotellogo.svg" alt="hotelLogo">
-          </div>
-        </div>
-  
-      </article>
-  
-  
-      <aside class="asidePictures">
-        <section class="picturesAgain">
-        <div class="picture1">
-          <img src="img/Pillow12.png" alt="pillowResort">
-          <p class="pillowDesc1">Soft and Firm Combo Pack <br> (Includes 2 Pillows)</p>
-          <p class="pillowDesc2">SOFT AND FIRM SUPPORT</p>
-          <p class="pillowPriceRed">From $132.98</p>
-          <p class="pillowPricesCrossed">$139.98</p>
-        </div>
-  
-        <div class="picture2">
-          <img src="img/Pillow13.png" alt="pillowResort">
-          <p class="pillowDesc1">Holiday Inn ® Touch of Down ® Soft <br> Support Pillow)</p>
-          <p class="pillowDesc2">SOFT SUPPORT</p>
-          <p class="pillowPricesReg">From $69.99</p>
-        </div>
-  
-        </section>
-  
-        <div class="button4">
-          <button class="button">
-            <strong>SHOP ALL HOLIDAY INN® BEDDING</strong>
-          </button>
-        </div>
-      </aside>
+      <div class="button3">
+        <button class="button">
+          <strong>READ ALL REVIEWS</strong>
+        </button>
+      </div>
+    
+    </article>
 
-      <section class="locations">
-        <div class="locations-title">
-          <p>SHOP BEDDING FROM OTHER TOP HOTEL BRANDS</p>
+    <article class="container">
+
+      <div class="left-picture">
+        <img src="img/girlbed.png" alt="">
+      </div>
+
+      <div class="innResorts">
+        <div class="hotelInfo">
+            <p>Featured Hotel Bedding</p>
+            <h1>Holiday Inn Hotel & Resorts®</h1>
         </div>
-  
-        <div class="location-names">
-          <div class="location1"><p>Marriott®</p></div>
-          <div class="location1"><p>Hilton®</p></div>
-          <div class="location1"><p>Hampton Inn®</p></div>
-          <div class="location1"><p>Comfort Inn®</p></div>
-          <div class="location1"><p>Four Seasons®</p></div>
-          <div class="location1"><p>Ritz-Carlton®</p></div>
-        </div>
-  
-        <div class="see-all">
-          <a href="">SEE ALL HOTEL BRANDS</a>
-        </div>
-      </section>
-  
-      <section class="help">
-        <div class="help-title">
-          <p>We&#39re here to help</p>
-        </div>
-  
-      <div class="all-help">  
-  
-        <div class="help-icons">
-          <img src="img/expert.svg" alt="badge">
-          <h4>Talk to Our Bedding Experts</h4>
-          <p>Looking for a particular pillow? Our expert <br> staff can make a recommendation to meet <br> your individual sleep needs.</p>
-        </div>
-  
-        <div class="help-icons">
-          <img src="img/badge.svg" alt="badge">
-          <h4>100% Satisfaction Guarantee</h4>
-          <p>If a product does not help you Sleep Better, <br> our bedding experts can find you a product <br> that will help you Sleep Better Guaranteed!</p>
-        </div>
-  
-        <div class="help-icons">
-          <img src="img/returns.svg" alt="badge">
-          <h4>Free Exchanges & Returns</h4>
-          <p>You have up to 90 days to process 3 free <br> shipping exchanges. We want you to find <br> that perfect pillow!</p>
+        <div class="hotelLogo">
+          <img src="img/hotellogo.svg" alt="hotelLogo">
         </div>
       </div>
+
+    </article>
+
+
+    <aside class="asidePictures">
+      <section class="picturesAgain">
+      <div class="picture1">
+        <img src="img/Pillow12.png" alt="pillowResort">
+        <p class="pillowDesc1">Soft and Firm Combo Pack <br> (Includes 2 Pillows)</p>
+        <p class="pillowDesc2">SOFT AND FIRM SUPPORT</p>
+        <p class="pillowPriceRed">From $132.98</p>
+        <p class="pillowPricesCrossed">$139.98</p>
+      </div>
+
+      <div class="picture2">
+        <img src="img/Pillow13.png" alt="pillowResort">
+        <p class="pillowDesc1">Holiday Inn ® Touch of Down ® Soft <br> Support Pillow)</p>
+        <p class="pillowDesc2">SOFT SUPPORT</p>
+        <p class="pillowPricesReg">From $69.99</p>
+      </div>
+
       </section>
 
-      <section class="bottom">
+      <div class="button4">
+        <button class="button">
+          <strong>SHOP ALL HOLIDAY INN® BEDDING</strong>
+        </button>
+      </div>
+    </aside>
+  
+    <section class="locations">
+      <div class="locations-title">
+        <p>SHOP BEDDING FROM OTHER TOP HOTEL BRANDS</p>
+      </div>
 
-        <div class="options">
-          <p>CUSTOMER CARE</p>
-          <p>ABOUT US</p>
-          <p>PARTNER</p>
+      <div class="location-names">
+        <div class="location1"><p>Marriott®</p></div>
+        <div class="location1"><p>Hilton®</p></div>
+        <div class="location1"><p>Hampton Inn®</p></div>
+        <div class="location1"><p>Comfort Inn®</p></div>
+        <div class="location1"><p>Four Seasons®</p></div>
+        <div class="location1"><p>Ritz-Carlton®</p></div>
+      </div>
+
+      <div class="see-all">
+        <a href="">SEE ALL HOTEL BRANDS</a>
+      </div>
+    </section>
+
+    <section class="help">
+      <div class="help-title">
+        <p>We&#39re here to help</p>
+      </div>
+
+    <div class="all-help">  
+
+      <div class="help-icons">
+        <img src="img/expert.svg" alt="badge">
+        <h4>Talk to Our Bedding Experts</h4>
+        <p>Looking for a particular pillow? Our expert <br> staff can make a recommendation to meet <br> your individual sleep needs.</p>
+      </div>
+
+      <div class="help-icons">
+        <img src="img/badge.svg" alt="badge">
+        <h4>100% Satisfaction Guarantee</h4>
+        <p>If a product does not help you Sleep Better, <br> our bedding experts can find you a product <br> that will help you Sleep Better Guaranteed!</p>
+      </div>
+
+      <div class="help-icons">
+        <img src="img/returns.svg" alt="badge">
+        <h4>Free Exchanges & Returns</h4>
+        <p>You have up to 90 days to process 3 free <br> shipping exchanges. We want you to find <br> that perfect pillow!</p>
+      </div>
+    </div>
+    </section>
+
+
+    <section class="bottom">
+
+      <div class="options">
+        <p>CUSTOMER CARE</p>
+        <p>ABOUT US</p>
+        <p>PARTNER</p>
+      </div>
+
+      <div class="contact-options">
+
+        <div class="info-options">
+          <p class="bolded-option"><b>Email:</b> sleepbetter@pillows.com</p>
+          <p class="bolded-option"><b>Call:</b> 1-800-720-6973</p>
+          <p class="italic-option">M-F 8 am-4pm EST.</p>
+          <p class="bolded-option"><b>Text:</b> 1-800-000-000</p>
+          <p class="customer-service">Customer Service</p>
+          <a href="#">Track My Order</a> <br>
+          <a href="#">Returns & Exchanges</a> <br>
+          <a href="#">FAQs</a> <br>
+          <a href="#">International orders</a> <br>
+          <a href="#">Gift Certificates</a> <br>
         </div>
-  
-        <div class="contact-options">
-  
-          <div class="info-options">
-            <p class="bolded-option"><b>Email:</b> sleepbetter@pillows.com</p>
-            <p class="bolded-option"><b>Call:</b> 1-800-720-6973</p>
-            <p class="italic-option">M-F 8 am-4pm EST.</p>
-            <p class="bolded-option"><b>Text:</b> 1-800-000-000</p>
-            <p class="customer-service">Customer Service</p>
-            <a href="#">Track My Order</a> <br>
-            <a href="#">Returns & Exchanges</a> <br>
-            <a href="#">FAQs</a> <br>
-            <a href="#">International orders</a> <br>
-            <a href="#">Gift Certificates</a> <br>
-          </div>
-  
-          <div class="about-options">
-            <a href="#">Our Story</a> <br>
-            <a href="#">Reviews</a> <br>
-            <a href="#">Blog</a> <br>
-            <a href="#">Satisfaction Guarantee</a> <br>
-            <a href="#">Why Shop with Us</a> <br>
-            <a href="#">Staff Picks</a> <br>
-            <a href="#">Pillow Finder</a> <br>
-          </div>
-  
-          <div class="partner-options">
-            <a href="#">Wholesale</a> <br>
-            <a href="#">Affiliatess</a> <br>
-            <a href="#">Become a Vendor</a> <br>
-            <a href="#">PR</a> <br>
-          </div>
+
+        <div class="about-options">
+          <a href="#">Our Story</a> <br>
+          <a href="#">Reviews</a> <br>
+          <a href="#">Blog</a> <br>
+          <a href="#">Satisfaction Guarantee</a> <br>
+          <a href="#">Why Shop with Us</a> <br>
+          <a href="#">Staff Picks</a> <br>
+          <a href="#">Pillow Finder</a> <br>
         </div>
-  
-        <div class="pillow-talk">
-          <p class="pillow-title">Pillow Talk.</p>
-          <p class="pillow-text">You&#39re going to want in. Sign up to stay up-to-date on <br> the latest news, product releases and exclusive deals!</p>
-          <input class="input-email" type="email" id="email" name="email" placeholder="Enter your email address">
-          <button class="sign-button">SIGN UP</button>
+
+        <div class="partner-options">
+          <a href="#">Wholesale</a> <br>
+          <a href="#">Affiliatess</a> <br>
+          <a href="#">Become a Vendor</a> <br>
+          <a href="#">PR</a> <br>
         </div>
-  
-  
-        <div class="friends">
-          <p>Let&#39s Be Friends</p>
-          <i class="fa-brands fa-facebook-f"></i>
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-pinterest-p"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-youtube"></i>
-          <i class="fa-brands fa-google-plus-g"></i>
-        </div>
-  
-      </section>
-  
-      <footer>
-        <p>© Pillows.com All Rights Reserved.</p>
-        <p>Privacy Policy</p>
-        <p>Terms of Use</p>
-        <p>Coupon Policy</p>
-        <p>Safe & Secure Shopping</p>
-      </footer>
+      </div>
+
+      <div class="pillow-talk">
+        <p class="pillow-title">Pillow Talk.</p>
+        <p class="pillow-text">You&#39re going to want in. Sign up to stay up-to-date on <br> the latest news, product releases and exclusive deals!</p>
+        <input class="input-email" type="text" id="email" name="email" placeholder="Enter your email address">
+        <button class="sign-button" onclick="">SIGN UP</button>
+      </div>
+
+
+      <div class="friends">
+        <p>Let&#39s Be Friends</p>
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+      </div>
+
+    </section>
+
+    <footer>
+      <p>© Pillows.com All Rights Reserved.</p>
+      <p>Privacy Policy</p>
+      <p>Terms of Use</p>
+      <p>Coupon Policy</p>
+      <p>Safe & Secure Shopping</p>
+    </footer>
 
   </body>
 </html>

@@ -1,13 +1,8 @@
-body {
-  width: 1440px;
-  height: 5457px;
+#button_div {
+  display: flex;
+  justify-content: left;
 }
 
-a {
-  text-decoration: none;
-}
-
-body,
 ul {
   margin: 0;
   padding: 0;
@@ -44,24 +39,10 @@ ul {
 }
 
 .blue_bar_text {
-  font-size: 14px;
+  font-size: 12px;
+  font-family: Sans;
   color: #1f3951;
   font-family: "DM Sans";
-}
-
-.blue_bar_text a {
-  font-family: "DM Sans";
-  font-size: 13px;
-  font-weight: 400;
-  color: #1f3951;
-}
-
-.blue_bar_rtext {
-  font-family: "DM Sans";
-  font-size: 14px;
-  font-weight: 500;
-  color: #1f3951;
-  text-decoration: none;
 }
 
 #blue_bar_img {
@@ -99,7 +80,7 @@ ul {
 
 .navbar-links a {
   color: #1f3951;
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   text-decoration: none;
   font-weight: bold;
   font-size: 16px;
@@ -124,9 +105,40 @@ ul {
   width: 100%;
 }
 
-#button_div {
+.navbar2 {
   display: flex;
-  justify-content: left;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  top: 210px;
+  background-color: #F9F7F6;
+  padding: 25px;
+}
+
+.navbar2-items {
+  display: flex;
+  align-items: center;
+}
+
+.navbar2-items p{
+  display: flex;
+  font-family: 'DM Sans';
+  opacity: 100%;
+  font-weight: 500;
+}
+
+.navbar2-items img{
+  display: flex;
+  padding-right: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  width: auto;
+  height: 5457px;
 }
 
 .button {
@@ -188,33 +200,73 @@ ul {
   width: 43%;
   margin-top: -500px;
   margin-left: 50px;
+  transition: opacity 0.5s ease-in-out;
 }
 
-.navbar2 {
-  display: flex;
+.slider-dot {
+  width: 10px;
+  height: 10px;
+  background-color: gray;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-bottom: 10px; 
+}
+
+.slider-dot.active {
+  background-color: #406c93;
+}
+
+#slider_dots {
   align-items: center;
-  justify-content: space-evenly;
-  position: relative;
-  top: 210px;
-  background-color: #f9f7f6;
-  padding: 25px;
+  position: absolute; 
+  bottom: 10px; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  display: flex;
+  justify-content: center;
 }
 
-.navbar2-items {
-  display: flex;
-  align-items: center;
+.slider-dot2 {
+  width: 10px;
+  height: 10px;
+  background-color: gray;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-bottom: 10px; 
 }
 
-.navbar2-items p {
-  display: flex;
+.slider-dot2.active {
+  background-color: #406c93;
+}
+
+.slider-dots2 {
+  text-align: center; 
+  margin-top: -50px;
+}
+
+
+.blue_bar_text {
   font-family: "DM Sans";
-  opacity: 100%;
-  font-weight: 500;
+  font-size: 14px;
 }
 
-.navbar2-items img {
-  display: flex;
-  padding-right: 20px;
+.blue_bar_text a {
+  font-family: "DM Sans";
+  font-size: 13px;
+  font-weight: 400;
+  color: #1f3951;
+}
+
+.blue_bar_rtext {
+  font-family: "DM Sans";
+  font-size: 14px;
+  font-weight: 500;
+  color: #1f3951;
+  text-decoration: none;
 }
 
 .hero {
@@ -305,6 +357,9 @@ ul {
   font-size: 16px;
   font-weight: 700;
   text-decoration: line-through;
+  position: relative;
+  bottom: 37px;
+  left: 110px;
 }
 
 .discount-price {
@@ -312,6 +367,8 @@ ul {
   color: #ed4d4d;
   font-weight: 700;
   text-shadow: 0 5px 10px rgba(237, 77, 77, 0.5);
+  position: relative;
+  bottom: 40px;
 }
 
 #bed {
@@ -359,21 +416,26 @@ ul {
   margin-top: 200px;
 }
 
+.multiple-offers {
+  position: relative; 
+}
+
 .multiple-offers img {
   width: 406px;
   height: 530px;
+  transition: transform 0.3s ease; 
 }
 
-.whitepillow-desc {
-  bottom: 80%;
-  margin-top: -515px;
-  margin-left: 20px;
+.multiple-offers img:hover {
+  transform: scale(1.1); 
 }
 
+.whitepillow-desc,
 .shop-nowlink {
-  bottom: 80%;
-  margin-top: -15px;
-  margin-left: 20px;
+  position: absolute; 
+  bottom: 80%; 
+  left: 20px; 
+  transition: transform 0.3s ease;
 }
 
 #offers .whitepillow-desc {
@@ -393,7 +455,7 @@ ul {
 }
 
 .reviews {
-  margin-top: 460px;
+  margin-top: 100px;
   background-color: #eef6fa;
   padding-top: 45px;
 }
@@ -469,12 +531,10 @@ ul {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column: 2;
-
 }
 
-.left-picture{
+.left-picture {
   display: flex;
-  
 }
 
 .left-picture img {
@@ -482,6 +542,8 @@ ul {
   grid-column: 2;
   display: flex;
   padding-left: 100px;
+  position: relative;
+  top: 30px;
 }
 
 .hotelInfo {
@@ -494,6 +556,20 @@ ul {
   padding-right: 95px;
 }
 
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.hotelLogo img {
+  animation: spin 10s linear infinite; 
+}
+
+
 .innResorts {
   display: flex;
   align-items: flex-start;
@@ -505,10 +581,10 @@ ul {
 .innResorts p {
   display: flex;
   width: 80%;
-  font-family: 'Bodoni Moda';
+  font-family: "Bodoni Moda";
   font-size: 18px;
   font-weight: 600;
-  color: #406C93;
+  color: #406c93;
   font-style: italic;
   margin-bottom: 10px;
   margin-left: -45px;
@@ -516,69 +592,66 @@ ul {
 .innResorts h1 {
   display: flex;
   flex-direction: column;
-  font-family: 'DM Sans';
+  font-family: "DM Sans";
   font-weight: 700;
   font-size: 36px;
-  color: #1F3951;
+  color: #1f3951;
   margin-top: 10px;
   margin-left: -100px;
 }
 
-
-.asidePictures{
+.asidePictures {
   position: relative;
   bottom: 400px;
   left: 680px;
 }
 
-.picturesAgain{
+.picturesAgain {
   display: flex;
   gap: 20px;
 }
 
-.pillowDesc1{
-  font-family: 'DM Sans';
+.pillowDesc1 {
+  font-family: "DM Sans";
   font-weight: 700;
   font-size: 17px;
   color: #122230;
   margin-bottom: 0px;
 }
 
-.pillowDesc2{
-  font-family: 'DM Sans';
+.pillowDesc2 {
+  font-family: "DM Sans";
   font-weight: 400;
   font-size: 13px;
-  color: #646F78;
+  color: #646f78;
   margin-top: 5px;
 }
 
-.pillowPriceRed{
-  font-family: 'DM Sans';
+.pillowPriceRed {
+  font-family: "DM Sans";
   font-weight: 500;
   font-size: 16px;
-  color: #ED4D4D;
+  color: #ed4d4d;
   margin-top: -5px;
 }
 
-.pillowPricesReg{
-  font-family: 'DM Sans';
+.pillowPricesReg {
+  font-family: "DM Sans";
   font-weight: 500;
   font-size: 16px;
-  color: #1F3951;
+  color: #1f3951;
   margin-top: -5px;
 }
 
-.pillowPricesCrossed{
-  font-family: 'DM Sans';
+.pillowPricesCrossed {
+  font-family: "DM Sans";
   font-weight: 500;
   font-size: 16px;
-  color: #1F3951;
+  color: #1f3951;
   text-decoration: line-through;
-}
-
-.button4{
-  width: 50%;
-  padding-left: 150px;
+  position: relative;
+  bottom: 37px;
+  left: 120px;
 }
 
 .button4 {
@@ -680,6 +753,7 @@ ul {
   background-color: #EFF6FB;
   position: relative;
   bottom: 260px;
+  height: 500px
 }
 
 .options{
@@ -837,8 +911,7 @@ footer{
   display: flex;
   justify-content: center;
   position: relative;
-  bottom: 500px;
-
+  bottom: 300px;
 }
 
 footer p{
@@ -848,3 +921,4 @@ footer p{
   color: #646F78;
   margin-left: 30px;
 }
+
